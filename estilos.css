@@ -304,7 +304,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1000px) {
+@media screen and (min-width: 1000px) {
   #navbar {
     position: fixed;
     height: 100%;
@@ -352,7 +352,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1200px) {
+@media screen and (min-width: 1200px) {
   #navbar header {
     margin: 0;
     font-size: 2.687em;
@@ -368,7 +368,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1300px) {
+@media screen and (min-width: 1300px) {
   #navbar a {
     font-size: 2.55em;
   }
@@ -380,7 +380,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1400px) {
+@media screen and (min-width: 1400px) {
   #navbar {
     width: 350px;
   }
@@ -405,7 +405,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1640px) {
+@media screen and (min-width: 1640px) {
   #navbar {
     width: 435px;
   }
@@ -431,7 +431,7 @@ code {
   }
 }
 
-@media screen and (min-device-width: 1900px) {
+@media screen and (min-width: 1900px) {
   #navbar a {
     font-size: 3.45em;
     padding: 6px 0 6px 13px;

@@ -147,6 +147,9 @@ code {
   .main-section ul, .main-section p, article p, article ul {
     font-size: 3.4em;
   }
+  pre {
+    font-size: 2.538em;
+  }
 }
 
 @media screen and (min-device-width: 470px) {

@@ -98,6 +98,9 @@ code {
 }*/
 
 @media only screen and (min-width: 318px) {
+  #navbar ul {
+    width: 700px;
+  }
   .main-section header {
     font-size: 3.7em;
   }

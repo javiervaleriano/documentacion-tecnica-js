@@ -11,7 +11,7 @@ html {
 #navbar header {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  font-size: 2.8em;
+  font-size: 6em;
 }
 #navbar {
   display: flex;
@@ -22,15 +22,15 @@ html {
 }
 #navbar ul {
   align-self: center;
-  width: 450px;
+  width: 600px;
   max-width: 100%;
-  height: 169px;
+  height: 229px;
   overflow: auto;
   outline: 2px solid #d4bc3c;
   margin: 0;
   padding: 0;
 }
-.nav-link {
+#navbar ul a {
   display: block;
   list-style: none;
   text-decoration: none;
@@ -38,7 +38,7 @@ html {
   padding: 6px 0 6px 12px;
   border-bottom: 1px solid #d4bc3c;
   color: #000;
-  font-size: 1.8em;
+  font-size: 3.65em;
 }
 
 .main-section header {
@@ -86,21 +86,12 @@ code {
   #navbar {
     width: 100%;
   }
-  #navbar ul {
-    height: 165px;
-  }
   #codigo-dif {
   width: 90%;
 }
 }
 
 @media only screen and (min-width: 318px) {
-  #navbar ul {
-    height: 165px;
-  }
-  #navbar a {
-    font-size: 1.7em;
-  }
   #codigo-dif {
   width: 90%;
   }
@@ -122,12 +113,6 @@ code {
 }
 
 @media only screen and (min-width: 470px) {
-  #navbar ul {
-    height: 170px;
-  }
-  #navbar a {
-    font-size: 1.79em;
-  }
   .main-section p, article p, .main-section ul, article ul {
   font-size: 1.87em;
   }
@@ -141,17 +126,8 @@ code {
   #main-doc {
     padding: 0 6px;
   }
-  #navbar header {
-    font-size: 3.1em;
-  }
   .main-section header {
     font-size: 2.15em;
-  }
-  #navbar ul {
-    height: 175px;
-  }
-  #navbar a {
-    font-size: 1.81em;
   }
   .main-section p, article p, .main-section ul, article ul {
   font-size: 1.89em;
@@ -162,12 +138,6 @@ code {
 }
 
 @media only screen and (min-width: 660px) {
-  #navbar ul {
-    height: 180px;
-  }
-  #navbar a {
-    font-size: 1.95em;
-  }
   .main-section p, article p, .main-section ul, article ul {
     line-height: 1.32;
   }

@@ -95,20 +95,23 @@ code {
   #codigo-dif {
   width: 90%;
 }
-}
+}*/
 
 @media only screen and (min-width: 318px) {
-  #navbar ul {
-    height: 165px;
+  .main-section header {
+    font-size: 3.7em;
   }
-  #navbar a {
-    font-size: 1.7em;
+  .main-section p, article p, .main-section ul, article ul {
+    font-size: 1.45em;
+  }
+  pre {
+    font-size: 3.65em;
   }
   #codigo-dif {
   width: 90%;
   }
 }
-
+/*
 @media only screen and (min-width: 358px) {
   .main-section {
     padding: 0 8px;

@@ -83,6 +83,9 @@ code {
 }
 
 @media only screen and (max-width: 317px) {
+  #navbar {
+    width: 100%;
+  }
   #navbar ul {
     height: 165px;
   }

@@ -287,7 +287,7 @@ code {
   }
 }
 
-@media (orientation: landscape) {
+@media screen and (max-device-width: 991px) and (orientation: landscape) {
   #navbar {
     height: 100vh;
   }
